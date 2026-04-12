@@ -1,35 +1,62 @@
+# Sleep Quality Classification
 
-Sleep Quality classification Model
+A machine learning classification project focused on predicting sleep quality from structured data.
 
+## Project Overview
 
-The Sleep Health and Lifestyle Dataset comprises 400 rows and 13 columns, covering a wide range of variables related to sleep and daily habits. It includes details such as gender, age, occupation, sleep duration, quality of sleep, physical activity level, stress levels, BMI category, blood pressure, heart rate, daily steps, and the presence or absence of sleep disorders.
+This project explores supervised classification for sleep quality prediction using tabular data and machine learning techniques.
 
-Key Features of the Dataset:
-Comprehensive Sleep Metrics: Explore sleep duration, quality, and factors influencing sleep patterns.
-Lifestyle Factors: Analyze physical activity levels, stress levels, and BMI categories.
-Cardiovascular Health: Examine blood pressure and heart rate measurements.
-Sleep Disorder Analysis: Identify the occurrence of sleep disorders such as Insomnia and Sleep Apnea.
+The goal was to build a complete classification workflow including data preprocessing, exploratory analysis, feature preparation, model training, and evaluation.
 
-Dataset Columns:
-Person ID: An identifier for each individual.
-Gender: The gender of the person (Male/Female).
-Age: The age of the person in years.
-Occupation: The occupation or profession of the person.
-Sleep Duration (hours): The number of hours the person sleeps per day.
-Quality of Sleep (scale: 1-10): A subjective rating of the quality of sleep, ranging from 1 to 10.
-Physical Activity Level (minutes/day): The number of minutes the person engages in physical activity daily.
-Stress Level (scale: 1-10): A subjective rating of the stress level experienced by the person, ranging from 1 to 10.
-BMI Category: The BMI category of the person (e.g., Underweight, Normal, Overweight).
-Blood Pressure (systolic/diastolic): The blood pressure measurement of the person, indicated as systolic pressure over diastolic pressure.
-Heart Rate (bpm): The resting heart rate of the person in beats per minute.
-Daily Steps: The number of steps the person takes per day.
-Sleep Disorder: The presence or absence of a sleep disorder in the person (None, Insomnia, Sleep Apnea).
+## Features
 
-Details about Sleep Disorder Column:
+- structured dataset handling
+- data preprocessing
+- exploratory data analysis
+- feature engineering / preparation
+- classification model training
+- performance evaluation
 
-None: The individual does not exhibit any specific sleep disorder.
-Insomnia: The individual experiences difficulty falling asleep or staying asleep, leading to inadequate or poor-quality sleep.
-Sleep Apnea: The individual suffers from pauses in breathing during sleep, resulting in disrupted sleep patterns and potential health risks.
-Acknowledgement:
+## Tech Stack
 
-I would like to clarify that the data I am presenting is synthetic and created by me for illustrative purposes
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- scikit-learn
+- Jupyter Notebook
+
+## Workflow
+
+The project includes:
+
+- loading and inspecting the dataset
+- cleaning and preprocessing the data
+- handling missing values if present
+- preparing features and target labels
+- splitting data into train and test sets
+- training classification models
+- evaluating results with standard metrics
+
+## Goal
+
+The main objective was to understand how machine learning can be applied to health-related structured data for classification tasks such as sleep quality prediction.
+
+## How to Run
+
+1. Clone the repository
+2. Install the required Python libraries
+3. Open the notebook
+4. Run the workflow step by step
+
+## Future Improvements
+
+- compare additional classification algorithms
+- tune hyperparameters
+- handle class imbalance more explicitly
+- improve explainability with feature importance methods
+
+## Author
+
+**Waseem Al-Mahainy**
